@@ -1,0 +1,14 @@
+{
+  "name": "inf113_bash_script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "md": "bash load.sh",
+    "pdf": "md2pdf --config-file config.js practica.md",
+    "build": "bash load.sh && md2pdf --config-file config.js practica.md"
+  },
+  "keywords": [],
+  "author": "Bryan Gutierrez Alvarez <bryguti.alvarez@gmail.com>",
+  "license": "MIT"
+}
