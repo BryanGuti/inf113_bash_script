@@ -17,6 +17,7 @@ do
     echo "" >> $file
     echo -e "\`\`\`bash" >> $file
     cat "$scripts_directory/practica$exercise.sh" >> $file
+    echo "" >> $file
     echo -e "\`\`\`" >> $file
     echo "" >> $file
 done
