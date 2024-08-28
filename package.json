@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "md": "bash load.sh",
-    "pdf": "md2pdf --config-file config.js practica.md",
-    "build": "bash load.sh && md2pdf --config-file config.js practica.md"
+    "pdf": "md2pdf --config-file config.js practica1.md",
+    "build": "bash load.sh && md2pdf --config-file config.js practica1.md"
   },
   "keywords": [],
   "author": "Bryan Gutierrez Alvarez <bryguti.alvarez@gmail.com>",
