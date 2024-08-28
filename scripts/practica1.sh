@@ -7,4 +7,3 @@ chmod go+wx turismo/*.txt
 tar -czf idiomas.tar.gz idiomas/
 rm -rf idiomas/
 tar -xzf idiomas.tar.gz
-

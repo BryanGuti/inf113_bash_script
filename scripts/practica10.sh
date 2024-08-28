@@ -7,9 +7,7 @@
 #		D			60-69%			1.0
 #		F			0-59%			0.0
 
-continuar=true
-
-while $continuar
+while true
 do
 	clear
 	echo -e "\n\t\tAVERIGUE LA NOTA DEL ESTUDIANTE"
@@ -18,21 +16,22 @@ do
 	read calificacion
 
 	case $calificacion in
-		A|a)	echo -e "\n\tLa calificacion es 4.0"
+		A|a)	echo -en "\n\tLa calificacion es 4.0 "
 		;;
-		B|b)	echo -e "\n\tLa calificacion es 3.0"
+		B|b)	echo -en "\n\tLa calificacion es 3.0 "
 		;;
-		C|c)	echo -e "\n\tLa calificacion es 2.0"
+		C|c)	echo -en "\n\tLa calificacion es 2.0 "
 		;;
-		D|d)	echo -e "\n\tLa calificacion es 1.0"
+		D|d)	echo -en "\n\tLa calificacion es 1.0 "
 		;;
-		F|f)	echo -e "\n\tLa calificacion es 0.0"
+		F|f)	echo -en "\n\tLa calificacion es 0.0 "
 		;;
-		*)		echo -e "\n\t$calificacion no es una opcion valida"
-				read tecla
+		*)		echo -en "\n\t$calificacion no es una opcion valida "
+				read -s tecla
 				continue
 		;;
 	esac
-	continuar=false
-done
 
+	read -s tecla && echo
+	break
+done
