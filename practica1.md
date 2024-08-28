@@ -1,4 +1,11 @@
-# Práctica en laboratorio
+# Práctica 1 Programación Web
+
+**Nombre:**  [Bryan Gutierrez Alvarez](https://github.com/BryanGuti/)
+
+**Paralelo:** B
+
+**Docente:** Victor Pozo Diaz
+
 
 ***
 
